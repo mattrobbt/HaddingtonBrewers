@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <a className="navbar-brand" href="#">
         Haddington Brewers
       </a>
@@ -22,45 +22,32 @@ const Navbar = () => {
         <ul className="navbar-nav">
           <li className="nav-item active">
             <a className="nav-link" href="#">
-              Home <span className="sr-only">(current)</span>
+              Home <span className="sr-only"></span>
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">
-              Features
+              Staff
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">
-              Pricing
+              Contact
             </a>
           </li>
-          <li className="nav-item dropdown">
-            <a
-              className="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdownMenuLink"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Dropdown link
+          <li className="nav-item">
+            <a className="nav-link" href="#">
+              Support Us
             </a>
-            <div
-              className="dropdown-menu"
-              aria-labelledby="navbarDropdownMenuLink"
-            >
-              <a className="dropdown-item" href="#">
-                Action
-              </a>
-              <a className="dropdown-item" href="#">
-                Another action
-              </a>
-              <a className="dropdown-item" href="#">
-                Something else here
-              </a>
-            </div>
           </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#">
+              Merch
+            </a>
+          </li>
+          
+          <button type="button" class="btn btn-light">Light</button>
+          
         </ul>
       </div>
     </nav>
